@@ -46,16 +46,22 @@ figure{
     background-color: hsl(178, 100%, 50%);
     opacity:0;
 }
-.equilibrium-image:hover .middle{
-    opacity: 0.9;
+figure:hover .middle{
+    opacity: 0.5;
     cursor: pointer;
+}
+.fa-eye{
+    font-size: 3rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: auto;
+    color: hsl(0, 0%, 100%);
 }
 .middle i{
     position: absolute;
-    right: 0;
-    left: 0;
-    top:0;
-    bottom: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background-color: hsl(178, 100%, 50%);
     opacity: 1;
 }
